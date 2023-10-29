@@ -1,0 +1,13 @@
+# *
+
+User-agent: *
+
+Allow: /
+
+# Host
+
+Host: https://puffele.netlify.app
+
+# Sitemaps
+
+Sitemap: https://puffele.netlify.app/sitemap.xml
