@@ -1,8 +1,9 @@
 <!-- _includes/partials/_navigation.liquid -->
-<header class="bg-black text-gray-50 py-4">
-    <nav class="max-w-2xl mx-auto text-lg space-x-6">
+<header class="fixed top-0 w-full bg-gray-500 overflow-hidden float-left">
+    <nav class="m-auto max-w-max text-lg p-8">
         {%- for item in collections.page -%}
-            <a href="{{ item.url }}"
+            <a class="px-4 py-4 bg-orange-100 text-black border-black border-4 hover:animate-bounce 
+               hover:bg-orange-500 m-2" href="{{ item.url }}"
                {% if item.url == page.url %}
                    aria-current='page' data-state='active'
            {% endif %}
