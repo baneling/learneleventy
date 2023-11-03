@@ -21,14 +21,6 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
-    // Shortcode tutorial
-    eleventyConfig.addShortcode(
-        "headers",
-        (title, subtitle) =>
-        `<h1>${title}</h1>
-        <p>${subtitle}</p>`
-    );
-
     // standard folders for stuff
     return {
         dir: {
